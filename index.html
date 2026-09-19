@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+<meta charset="UTF-8">
+<title>Facebook Login Clone</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .left h1 {
+    color: #1877f2;
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+
+  .left p {
+    font-size: 18px;
+    color: #333;
+    max-width: 350px;
+  }
+
+  .login-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .login-box input {
+    padding: 12px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .login-box button {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .login-btn {
+    background-color: #1877f2;
+    color: white;
+    font-weight: bold;
+  }
+
+  .signup-btn {
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+    width: 60%;
+    margin: 10px auto 0 auto;
+  }
+
+  .forgot {
+    text-align: center;
+    color: #1877f2;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="left">
+      <h1>facebook</h1>
+      <p>Connect with friends and the world around you on Facebook.</p>
+    </div>
+
+    <div class="login-box">
+      <input type="text" placeholder="Email or phone number">
+      <input type="password" placeholder="Password">
+      <button class="login-btn">Login</button>
+      <a href="#" class="forgot">Forgot password?</a>
+      <button class="signup-btn">Create new account</button>
+    </div>
+  </div>
+
+</body>
+</html>
